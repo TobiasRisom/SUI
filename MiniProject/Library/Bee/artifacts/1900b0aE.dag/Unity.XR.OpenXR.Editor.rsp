@@ -118,6 +118,7 @@
 -define:XR_MGMT_4_4_0_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"C:/!UnityProjects/MED 8/SUI/MiniProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -332,7 +333,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"C:/UnityProjects/MED8/SUI/MiniProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
