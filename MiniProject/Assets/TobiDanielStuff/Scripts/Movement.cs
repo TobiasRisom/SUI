@@ -5,9 +5,14 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Movement : MonoBehaviour
 {
-    public float speed = 1.0f;
+    public float maxSpeed = 5.0f;
+    public float currentSpeed = 0.0f;
+    public float currentRotation = 0f;
+    public float rotationSpeed = 1.6f;
+    public Vector3 moveDirection;
     private CharacterController characterController;
     public GameObject rightController;
+    public GameObject boat;
 
     void Start()
     {
@@ -16,9 +21,25 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-            // Move the player in the direction that the controller is facing
-            Vector3 moveDirection = rightController.transform.forward;
+            moveDirection = transform.forward;
             //moveDirection.y = 0f;
-            characterController.Move(moveDirection * speed * Time.deltaTime);
+            DirectionCheck();
+            characterController.Move(moveDirection * currentSpeed * Time.deltaTime);
+            
+    }
+
+    void DirectionCheck()
+    {
+        // Y-rotation for the controller  
+
+        // First, find out what rotation the user wants (e.g. hard right)
+        float controller_direction = rightController.transform.rotation.y;     
+
+        // Then, make the current rotation direction the difference between what the user want and where they are going
+        float rotation_direction = controller_direction - transform.rotation.y;
+
+        // Then, rotate towards said direction
+        transform.Rotate(0f, rotationSpeed * -rotation_direction, 0f);
+
     }
 }

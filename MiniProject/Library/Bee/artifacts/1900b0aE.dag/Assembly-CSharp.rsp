@@ -393,7 +393,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/TobiDanielStuff/Scripts/GrabMovement.cs"
 "Assets/TobiDanielStuff/Scripts/Movement.cs"
 "Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs"
 "Assets/VRTemplateAssets/Scripts/BezierCurve.cs"
