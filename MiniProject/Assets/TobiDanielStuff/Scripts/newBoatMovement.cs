@@ -13,9 +13,6 @@ public class newBoatMovement : MonoBehaviour
     public float NewMaxSpeed = 10f;
     public float Drag = 0.1f;
 
-    // Components
-    private Rigidbody Rigidbody;
-
     // Previous variables
 
     public float speed;
@@ -32,6 +29,7 @@ public class newBoatMovement : MonoBehaviour
     public Transform rightController;
     public Transform vectorGuide;
     public Transform parentBoat;
+    private GameManager gm;
     bool triggerDown = false;
     bool gripDown = false;
 
@@ -39,6 +37,7 @@ public class newBoatMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        gm = GetComponent<GameManager>();
     }
 
     void Update()
@@ -90,7 +89,6 @@ public class newBoatMovement : MonoBehaviour
             speed = 0;
         }
     }
-
 
     void FixedUpdate()
     {
@@ -186,7 +184,7 @@ public class newBoatMovement : MonoBehaviour
     {
         if (context.action == triggerAction.action)
         {
-            Debug.Log("Right hand trigger pressed!");
+            //Debug.Log("Right hand trigger pressed!");
         }
     }
 
@@ -194,7 +192,16 @@ public class newBoatMovement : MonoBehaviour
     {
         if (context.action == gripAction.action)
         {
-            Debug.Log("Right hand grip pressed!");
+            //Debug.Log("Right hand grip pressed!");
         }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        //if(collision.gameObject.CompareTag("buoy"))
+        //{
+            gm.crashCounter += 1;
+            Debug.Log($"Ouch! Crash Counter is now {gm.crashCounter}");
+        //}
     }
 }

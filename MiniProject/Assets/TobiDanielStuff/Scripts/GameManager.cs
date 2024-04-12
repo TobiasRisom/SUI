@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI tmp_timer;
     float timer;
-    private bool isTimerRunning = true;
+    public int crashCounter = 0;
+    private bool isTimerRunning = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +28,11 @@ public class GameManager : MonoBehaviour
     public void stopTimer()
     {
         isTimerRunning = false;
+        Debug.Log($"Final Time: {timer}");
+    }
+
+    public void startTimer()
+    {
+        isTimerRunning = true;
     }
 }

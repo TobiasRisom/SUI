@@ -7,10 +7,13 @@ public class Checkpoints : MonoBehaviour
     public List<GameObject> checkpoints = new List<GameObject>();
     public int currentActiveCP = 0;
     private GameManager gm;
+    private ArrowPointer arrow;
     // Start is called before the first frame update
     void Start()
     {
         gm = GetComponent<GameManager>();
+        arrow = GameObject.Find("Arrow").GetComponent<ArrowPointer>();
+        arrow.target = checkpoints[0].transform;
 
         // Make all
         for(int i = 0; i < checkpoints.Count; i++)
@@ -35,10 +38,15 @@ public class Checkpoints : MonoBehaviour
 
     void updateActiveCheckpoint()
     {
+        if(currentActiveCP == 0)
+        {
+            gm.startTimer();
+        }
         if(currentActiveCP < checkpoints.Count - 1)
         {
             currentActiveCP += 1;
             checkpoints[currentActiveCP].GetComponent<Renderer>().material.color = Color.green;
+            arrow.target = checkpoints[currentActiveCP].transform;
         }
         else
         {
@@ -65,8 +73,6 @@ public class Checkpoints : MonoBehaviour
                 // Update Checkpoint
                 updateActiveCheckpoint();
 
-                // Play sound?
-                // PLAY SOUND GO HERE
             }
         }
     }
