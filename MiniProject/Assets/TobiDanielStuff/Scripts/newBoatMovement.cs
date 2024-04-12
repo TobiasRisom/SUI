@@ -34,11 +34,13 @@ public class newBoatMovement : MonoBehaviour
     public Transform parentBoat;
     bool triggerDown = false;
     bool gripDown = false;
+    private GameManager gm;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        gm = GetComponent<GameManager>();
     }
 
     void Update()
@@ -100,7 +102,7 @@ public class newBoatMovement : MonoBehaviour
 
         steer = sv_normalized;
 
-        Debug.Log($"Force added to rotation: {steer * transform.right * SteerPower}");
+        //Debug.Log($"Force added to rotation: {steer * transform.right * SteerPower}");
 
 
         //Rotational Force

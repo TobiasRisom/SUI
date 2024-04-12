@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - rightController
+  - checkpoint
   layers:
   - Default
   - TransparentFX
