@@ -100,7 +100,7 @@ public class newBoatMovement : MonoBehaviour
 
         steer = sv_normalized;
 
-        Debug.Log($"Force added to rotation: {steer * transform.right * SteerPower}");
+        //Debug.Log($"Force added to rotation: {steer * transform.right * SteerPower}");
 
 
         //Rotational Force
