@@ -16,10 +16,13 @@ C:/!UnityProjects/MED 8/SUI/MiniProject
 Logs/AssetImportWorker2.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 57964
 Successfully changed project path to: C:/!UnityProjects/MED 8/SUI/MiniProject
 C:/!UnityProjects/MED 8/SUI/MiniProject
 =======
+=======
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 56357
 Successfully changed project path to: C:/Users/ddani/Desktop/Unity Projecter/SUIminiPro/MiniProject
 C:/Users/ddani/Desktop/Unity Projecter/SUIminiPro/MiniProject
@@ -54,12 +57,21 @@ C:/Users/ddani/Desktop/Unity Projecter/SUIminiPro/MiniProject
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [25712] Host "[IP] 172.31.149.139 [Port] 0 [Flags] 2 [Guid] 547615379 [EditorId] 547615379 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-R3RM8J78) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [25712] Host "[IP] 172.31.149.139 [Port] 0 [Flags] 2 [Guid] 547615379 [EditorId] 547615379 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-R3RM8J78) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 285.98 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 1.23 ms.
+=======
+Player connection [2200] Host "[IP] 172.31.147.201 [Port] 0 [Flags] 2 [Guid] 3243876467 [EditorId] 3243876467 [Version] 1048832 [Id] WindowsEditor(7,DanielHansenVivobookLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2200] Host "[IP] 172.31.147.201 [Port] 0 [Flags] 2 [Guid] 3243876467 [EditorId] 3243876467 [Version] 1048832 [Id] WindowsEditor(7,DanielHansenVivobookLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 250.45 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.81 ms.
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 =======
 Player connection [2200] Host "[IP] 172.31.147.201 [Port] 0 [Flags] 2 [Guid] 3243876467 [EditorId] 3243876467 [Version] 1048832 [Id] WindowsEditor(7,DanielHansenVivobookLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -83,7 +95,11 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 >>>>>>> parent of f922b4df (WallofRocksAndHills)
@@ -92,6 +108,7 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.011184 seconds.
 Native extension for WindowsStandalone target not found
@@ -118,11 +135,25 @@ Domain Reload Profiling:
 	ReloadAssembly (1986ms)
 		BeginReloadAssembly (253ms)
 >>>>>>> parent of f922b4df (WallofRocksAndHills)
+=======
+Registered in 0.012503 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 590 ms
+Refreshing native plugins compatible for Editor in 204.10 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1986ms)
+		BeginReloadAssembly (253ms)
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (931ms)
 			LoadAssemblies (120ms)
@@ -154,12 +185,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (171ms)
 				ProcessInitializeOnLoadMethodAttributes (90ms)
 >>>>>>> parent of f922b4df (WallofRocksAndHills)
+=======
+		EndReloadAssembly (1540ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (746ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.017263 seconds.
 Begin MonoManager ReloadAssembly
@@ -168,6 +216,14 @@ Native extension for Android target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 117.13 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
+=======
+Registered in 0.021320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 209.34 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 =======
 Registered in 0.021320 seconds.
 Begin MonoManager ReloadAssembly
@@ -193,6 +249,7 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Completed reload, in  1.663 seconds
 Domain Reload Profiling:
@@ -262,6 +319,38 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+=======
+- Completed reload, in  3.148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3150ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2776ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (605ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (1677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (964ms)
+				ProcessInitializeOnLoadMethodAttributes (237ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
 Refreshing native plugins compatible for Editor in 2.56 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.19 ms.
@@ -269,6 +358,9 @@ Unloading 6166 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 66 unused Assets / (0.7 MB). Loaded Objects now: 6654.
 Memory consumption went from 241.4 MB to 240.7 MB.
 Total: 15.266500 ms (FindLiveObjects: 1.026200 ms CreateObjectMapping: 1.380700 ms MarkObjects: 11.277600 ms  DeleteObjects: 1.578100 ms)
+<<<<<<< HEAD
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
+=======
 >>>>>>> parent of f922b4df (WallofRocksAndHills)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -284,6 +376,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   Time since last request: 20376.586805 seconds.
   path: Assets/TobiDanielStuff/Materials
@@ -1910,6 +2003,26 @@ Received Import Request.
 Start importing Assets/TobiDanielStuff/DanielAssets/Gametree.fbx using Guid(84e85eadd0038a447ab75098ec2b7c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8539bee468024c169ab06b27fdbeb1f') in 0.094191 seconds 
 ========================================================================
 Received Import Request.
+=======
+  Time since last request: 53461.749184 seconds.
+  path: Assets/TobiDanielStuff/DanielAssets
+  artifactKey: Guid(e430777f328f9a3428e1ae0c2dbf63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TobiDanielStuff/DanielAssets using Guid(e430777f328f9a3428e1ae0c2dbf63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c9d834fce07e5b134deac5998210ea') in 0.032882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.708534 seconds.
+  path: Assets/TobiDanielStuff/DanielAssets/GameBush.fbx
+  artifactKey: Guid(b2ff9b5a4afeeb5458c46c4861a886ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TobiDanielStuff/DanielAssets/GameBush.fbx using Guid(b2ff9b5a4afeeb5458c46c4861a886ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2711c45e120633cc8ec8c0dc95b3bc5e') in 0.998929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TobiDanielStuff/DanielAssets/Gametree.fbx
+  artifactKey: Guid(84e85eadd0038a447ab75098ec2b7c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TobiDanielStuff/DanielAssets/Gametree.fbx using Guid(84e85eadd0038a447ab75098ec2b7c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8539bee468024c169ab06b27fdbeb1f') in 0.094191 seconds 
+========================================================================
+Received Import Request.
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
   Time since last request: 8.246375 seconds.
   path: Assets/TobiDanielStuff/DanielAssets/Idle.fbx
   artifactKey: Guid(f7be5777ddcf78e4286ad34290c130b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1956,4 +2069,7 @@ Received Import Request.
   path: Assets/TobiDanielStuff/DanielAssets/Skyline.png
   artifactKey: Guid(86e5cbbe6a84b764c8ad89fcfa2068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/TobiDanielStuff/DanielAssets/Skyline.png using Guid(86e5cbbe6a84b764c8ad89fcfa2068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e6676d24143092c7e4b4936c8c0b7b') in 0.061205 seconds 
+<<<<<<< HEAD
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
+=======
 >>>>>>> parent of f922b4df (WallofRocksAndHills)

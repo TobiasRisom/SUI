@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-7.222349166870117,"y":1.4078317880630494,"z":-16.667692184448243},"rotation":{"x":-0.013602678664028645,"y":0.9770370721817017,"z":0.06566417962312699,"w":0.20261317491531373},"size":0.01018055435270071,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-5.995814323425293,"y":3.7258353233337404,"z":-13.02313232421875},"rotation":{"x":0.38504794239997866,"y":-0.08151499927043915,"z":0.034165121614933017,"w":0.9186602234840393},"size":11.689056396484375,"orthographic":false}
 >>>>>>> Stashed changes
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-13.615166664123536,"y":9.804584503173829,"z":23.410511016845704},"rotation":{"x":0.187826469540596,"y":-0.06722313165664673,"z":0.012885660864412785,"w":0.9798187017440796},"size":73.65415954589844,"orthographic":false}
+>>>>>>> parent of f922b4df (WallofRocksAndHills)
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-13.615166664123536,"y":9.804584503173829,"z":23.410511016845704},"rotation":{"x":0.187826469540596,"y":-0.06722313165664673,"z":0.012885660864412785,"w":0.9798187017440796},"size":73.65415954589844,"orthographic":false}
 >>>>>>> parent of f922b4df (WallofRocksAndHills)
