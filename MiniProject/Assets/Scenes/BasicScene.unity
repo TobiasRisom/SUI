@@ -1534,7 +1534,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278358340}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1590,7 +1590,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 555906664}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &291976182
 PrefabInstance:
@@ -2029,7 +2029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743949797127993577, guid: d4088c5e21e82c54982890bdda08ce22, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6743949797127993577, guid: d4088c5e21e82c54982890bdda08ce22, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2860,7 +2860,7 @@ MonoBehaviour:
   triggerAction: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   gripAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rightController: {fileID: 1381567947}
-  vectorGuide: {fileID: 278358344}
+  vectorGuide: {fileID: 0}
   parentBoat: {fileID: 0}
 --- !u!54 &555906666
 Rigidbody:
@@ -3090,7 +3090,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 555906664}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &618495084
 PrefabInstance:
@@ -6306,7 +6306,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 81a84a3d6d9f3a24e96de50f5a947fb9, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81a84a3d6d9f3a24e96de50f5a947fb9, type: 3}
       propertyPath: m_LocalScale.x
