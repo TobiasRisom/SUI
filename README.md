@@ -5,6 +5,7 @@ This project is a SUI Mini Project for 8th Semester Medialogy at AAU. It runs in
 - Unzip the zip-file.
 - Click "Add" in Unity Hub and choose the "MiniProjekt" to create a Unity Project.
 - Open the Unity Project.
+- **Note:** The project has to create a lot of files on start-up. Including these files with the project resulted it in not being able to open. So the importing may take a significant time. Sorry about that!
 - If you see a blank scene, navigate to the "Scenes" folder and select "BasicScene"
 - You can now run the project in the Unity Editor using an Oculus Quest Link! Enjoy!
 
