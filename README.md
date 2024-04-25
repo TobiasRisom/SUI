@@ -12,4 +12,7 @@ This project is a SUI Mini Project for 8th Semester Medialogy at AAU. It runs in
 - Right grab button accelerates the boat.
 - Rotating while holding down the right trigger sets the rotation of the boat.
 
+**Credits:**
+Project by Daniel D. B. Hansen and Tobias Risom
+
 **IMPORTANT:** The default branch is called "FunctioningBranch" and is the working branch. The BrokenBranch does NOT work, as far as we can tell.
