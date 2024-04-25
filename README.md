@@ -5,7 +5,7 @@ This project is a SUI Mini Project for 8th Semester Medialogy at AAU. It runs in
 - Unzip the zip-file.
 - Click "Add" in Unity Hub and choose the "MiniProjekt" to create a Unity Project.
 - Open the Unity Project.
-- If you see a blank scene, navigate to the "Scenes" folder and select "SampleScene"
+- If you see a blank scene, navigate to the "Scenes" folder and select "BasicScene"
 - Enjoy!
 
 **Controls:**
